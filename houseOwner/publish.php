@@ -1,6 +1,5 @@
 <?php
-error_reporting (E_ALL ^ E_NOTICE); 
-
+error_reporting (E_ALL ^ E_NOTICE);
   include "../server/connect.php";
   session_start();
   $emailId=$_SESSION["email"];
